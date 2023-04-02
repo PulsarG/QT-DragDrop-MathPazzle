@@ -12,7 +12,8 @@ Cell::Cell(QWidget *parent)
     this->setStyleSheet("border: 3px solid blue; text-align: center");
   }
 
-  mLabel = new QLabel(this->window());
+//  mLabel = new QLabel(this->window());
+  mLabel = new QLabel(this);
   mLabel->setStyleSheet(
       "border: 1px solid red; font: 500 50pt 'Segoe UI'; text-align: center");
   mLabel->hide();
